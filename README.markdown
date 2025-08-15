@@ -42,7 +42,7 @@
  1. 配置mediamtx_dir 您下载的mediamtx的路径
 
   注意！您下载的mediamtx中”exe“文件和”yml“文件必须在同一文件夹内！
- ![mediamtx](./pics\mediamtx.png)
+ ![mediamtx](./pics/mediamtx.png)
  
  然后将main.py中的start_mediamtx()中的mediatx_dir更换为你的上一级目录（我的是标蓝区域）
 
@@ -73,3 +73,4 @@
 
 
 ### 💖 让科技与艺术碰撞，创造属于你的数字世界！快来体验吧~
+
