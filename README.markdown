@@ -39,14 +39,16 @@
 
 ## 📲 使用指南
 ### ⚙️ 配置说明
- 1. 配置mediamtx_dir 您下载的mediamtx的路径
+ 1. 配置mediamtx_dir
+下载![mediamtx](https://github.com/bluenviron/mediamtx/releases/tag/v1.14.0)
 
   注意！您下载的mediamtx中”exe“文件和”yml“文件必须在同一文件夹内！
  ![mediamtx](./pics/mediamtx.png)
  
  然后将main.py中的start_mediamtx()中的mediatx_dir更换为你的上一级目录（我的是标蓝区域）
 
- 2. rtsp_url	手机推流地址	rtsp://192.168.0.17:8554/live
+ 2. rtsp_url	手机推流地址
+
  获取电脑ip地址
  ```bash
  ipconfig
@@ -54,7 +56,9 @@
  ![ip](./pics/ip.png)
 
  在larix中这样配置：
+ 
  右上角齿轮⚙>Connections>右上角➕>Connection>写入自己的ip地址
+ 
  ![larix](./pics/larix.png)
 
  最后将main.py中rtsp_url更改为你larix中的推流地址
@@ -73,6 +77,7 @@
 
 
 ### 💖 让科技与艺术碰撞，创造属于你的数字世界！快来体验吧~
+
 
 
 
